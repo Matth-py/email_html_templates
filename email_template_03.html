@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML Template 03</title>
+        <link href="https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css" rel="stylesheet"> <!-- Flaticon CSS -->
+        <style>
+            /* CSS Styles */
+            /* Add your styles here */
+
+            .Container {
+                margin: 0 auto;
+                width: 600px;
+                height: 100%;
+                padding: 20px;
+                background-color: #f2f2f2;
+                font-family: Arial, sans-serif;
+            }
+            /* Logo Section */
+            .logo {
+                margin: auto;
+                width: 150px;
+                height: 50px;
+                font-weight: bold;
+                text-align: center;
+                padding-top: 10px;
+                border-radius: 50px;
+                background-color: black;
+            }
+            .logo:hover {
+                background-color: whitesmoke;
+            }
+
+            .resized {
+                max-width: 70%; /* Restricts the image size to 50% of its original size */
+                height: auto; /* Maintains the aspect ratio */
+                display: block; /* Ensures the image is treated as a block-level element */
+                margin: 0 auto; /* Centers the image inside its container */
+            }
+
+            .horizontal-line {
+                width: 100%;
+                height: 1px;
+                background-color: black;
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+
+            ul {
+                list-style-type: none;
+                max-width: 400px;
+                margin: auto;
+                text-align: center;
+                padding: 10px;
+                background-color: black;
+                border-radius: 25px;
+            }
+            li {
+                text-decoration: none;
+                margin-right: 10px;
+                display: inline-block;
+            }
+            a {
+                color: rgb(53, 204, 141);
+                text-decoration: none;
+            }
+
+            a:hover {
+                color: white;
+                cursor: pointer;
+            }
+            /* Main Content Section */
+            .h-img {
+                width: 100%;
+                height: 400px;
+                object-fit: cover;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+            .horizontal-line-2 {
+                width: 100px;
+                height: 1px;
+                background-color: black;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                margin: auto;
+            }
+            .h-text {
+                text-align: center;
+                margin-bottom: 20px;
+            }
+
+            .ad-container {
+                position: relative;
+                margin: 0 auto;
+                text-align: center;
+            }
+
+            .ad-image {
+                width: 550px;
+                height: 300px;
+                margin-top: 20px;
+            }
+
+            .text-overlay {
+                margin-top: 20px;
+                position: absolute;
+                top: 0px;
+                left: 50px;
+                text-align: center;
+                background-color: rgba(255, 255, 255, 0.7); /* Transparent white background */
+                padding: 15px;
+                max-width: 220px;
+                height: 270px;
+            }
+
+            .text-overlay h2 {
+                margin: 0 0 10px 0;
+                font-size: 24px;
+                color: #333;
+            }
+
+            .text-overlay .img-text {
+                padding-top: 10px;
+                margin: 0 0 15px 0;
+                font-size: 16px;
+                color: #666;
+            }
+
+            .shop-button {
+                display: inline-block;
+                padding: 10px 20px;
+                background-color: #444;
+                color: #fff;
+                text-decoration: none;
+                border-radius: 5px;
+                font-size: 16px;
+            }
+
+            .shop-button:hover {
+                background-color: #666;
+            }
+
+            .footer {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            max-width: 520px;
+            margin: 0 auto;
+            margin-top: 20px;
+            text-align: center;
+        }
+        .social-icons a {
+            font-size: 30px; /* Adjust size */
+            margin: 0 10px; /* Spacing between icons */
+            color: #000; /* Default icon color */
+            text-decoration: none;
+        }
+        .social-icons a:hover {
+            color: #0073e6; /* Change color on hover */
+        }
+        .unsubscribe {
+            margin: 20px 0;
+        }
+        .logo {
+            margin-top: 20px;
+        }
+        .logo img {
+            width: 100px;
+        }
+        </style>
+    </head>
+    
+    <body>
+        <div class="Container">
+            <!-- Navigation Bar Section -->
+            <div class="navbar">
+                <!-- Logo -->
+                <div class="logo">
+                    <a href="https://rejuvenee.com" target="_blank">
+                        <img src="https://rejuvenee.com/wp-content/uploads/2024/09/Rejuvenee-new-logor.png" alt="Company Logo" class="resized">
+                    </a>
+                </div>
+
+                <!-- Horizontal line -->
+                <div class="horizontal-line"></div>
+
+                <!-- Menu Items -->
+                <ul>
+                    <li><a href="#spa">Spa</a></li>
+                    <li><a href="#med-spa">Med Spa</a></li>
+                    <li><a href="#mens-grooming">Men's Grooming</a></li>
+                    <li><a href="#hair-studio">Hair Studio</a></li>
+                    <li><a href="#gym">Gym</a></li>
+                </ul>
+            </div>
+                <!-- Main Content Section -->
+            <div class="h-container">
+                <img src="https://img.freepik.com/premium-photo/empowered-entrepreneur-shaping-future-beauty-industry_886588-54911.jpg?w=740" alt="skin care image" class="h-img">
+                <div class="horizontal-line-2"></div>
+                <p class="h-text">
+                    Get the most out of our service; Select service that you desire and need using our guide below.
+                </p>
+            </div>
+
+            <div>
+                <p class="h-text">
+                    Book by Category
+                </p>
+                <div class="horizontal-line-2"></div>
+            </div>
+            <div class="ad-container" id="spa">
+                <img src="https://img.freepik.com/free-photo/tender-african-woman-with-towel-head-resting-relaxing-spa-salon_176420-12912.jpg?t=st=1727427750~exp=1727431350~hmac=b3b0068a2a52a128177c5c0db8c7d9d0438325c6a0581d14553be31e2ad25fa6&w=740" alt="Sensitive Skin" class="ad-image">
+                <div class="text-overlay">
+                    <h2>Spa</h2>
+
+                    <div class="horizontal-line-2"></div>
+
+                    <p class="img-text">Escape the everyday stress with our rejuvenating spa treatments. Relax, unwind, and refresh your mind and body. Book your blissful experience today!</p>
+                    <a href="#" class="shop-button">Book Now</a>
+                </div>
+            </div>
+             
+            <div class="ad-container" id="med-spa">
+                <img src="https://img.freepik.com/premium-photo/3d-rendered-woman-getting-services-spa-beauty-salon_1069963-99817.jpg?w=826" alt="Sensitive Skin" class="ad-image">
+                    <div class="text-overlay">
+                        <h2>Med Spa</h2>
+
+                        <div class="horizontal-line-2"></div>
+
+                        <p>Rejuvenate your skin and body with our advanced med spa treatments. Feel refreshed, renewed, and confident. Book your personalized session today!</p>
+                        <a href="#" class="shop-button">Book Now</a>
+                    </div>
+            </div>
+
+            <div class="ad-container" id="mens-grooming">
+                <img src="https://img.freepik.com/free-photo/hairdresser-grooming-their-client_23-2149205921.jpg?t=st=1727709931~exp=1727713531~hmac=665956ef4a48a1fe9e459c9ec461878bad9dfb8445a0c8138a87bbf112110e47&w=740" alt="Sensitive Skin" class="ad-image">
+                    <div class="text-overlay">
+                        <h2>Men's Grooming</h2>
+
+                        <div class="horizontal-line-2"></div>
+
+                        <p>Upgrade your grooming game with our premium men’s services. From haircuts to shaves, we’ve got you covered. Look sharp, feel confident—book your appointment today!</p>
+                        <a href="#" class="shop-button">Book Now</a>
+                    </div>
+            </div>
+
+            <div class="ad-container" id="hair-studio">
+                <img src="https://rejuvenee.com/wp-content/uploads/2019/06/IMG_5629.jpg" alt="Sensitive Skin" class="ad-image">
+                    <div class="text-overlay">
+                        <h2>Hair Studio</h2>
+
+                        <div class="horizontal-line-2"></div>
+
+                        <p>Unleash your inner beauty at our Hair Studio! From Hair Styling to stunning Wig Revamping, we craft looks that empower. Book your appointment and feel fabulous today!</p>
+                        <a href="#" class="shop-button">Book Now</a>
+                    </div>
+            </div>
+
+            <div class="ad-container" id="gym">
+                <img src="https://img.freepik.com/free-photo/3d-gym-equipment_23-2151114193.jpg?t=st=1727710495~exp=1727714095~hmac=bcb5db7c428575585a447df2c3f72196ce9da77b5c349459e00145a99f1aaf9c&w=740" alt="Sensitive Skin" class="ad-image">
+                    <div class="text-overlay">
+                        <h2>GYM</h2>
+
+                        <div class="horizontal-line-2"></div>
+
+                        <p>Unleash your potential at our gym! Join now for personalized training, diverse classes, and a community that motivates you to thrive!</p>
+                        <a href="#" class="shop-button">Book Now</a>
+                    </div>
+            </div>
+
+            <!-- Footer Section -->
+            <div class="footer">
+                <p><strong>Corporation</strong></p>
+                <p>You are receiving this email because you opted in via our website.</p>
+        
+                <div class="social-icons" style="text-align: center;">
+                    <!-- Instagram -->
+                    <a href="https://www.instagram.com/yourprofile" target="_blank">
+                        <i class="fi fi-brands-instagram"></i>
+                    </a>
+                    <!-- Facebook -->
+                    <a href="https://www.facebook.com/yourprofile" target="_blank">
+                        <i class="fi fi-brands-facebook"></i>
+                    </a>
+                    <!-- Twitter -->
+                    <a href="https://www.twitter.com/yourprofile" target="_blank">
+                        <i class="fi fi-brands-twitter"></i>
+                    </a>
+                    <!-- YouTube -->
+                    <a href="https://www.youtube.com/yourprofile" target="_blank">
+                        <i class="fi fi-brands-youtube"></i>
+                    </a>
+                    <!-- LinkedIn -->
+                    <a href="https://www.linkedin.com/yourprofile" target="_blank">
+                        <i class="fi fi-brands-linkedin"></i>
+                    </a>
+                    <!-- WhatsApp -->
+                    <a href="https://wa.me/yournumber" target="_blank">
+                        <i class="fi fi-brands-whatsapp"></i>
+                    </a>
+                </div>
+            
+        
+                <p>Address, #PC<br>City, State.</p>
+                <p class="unsubscribe"><a href="#">Unsubscribe</a></p>
+        
+                <div class="logo">
+                    <a href="https://rejuvenee.com" target="_blank">
+                        <img src="https://rejuvenee.com/wp-content/uploads/2024/09/Rejuvenee-new-logor.png" alt="Company Logo" class="resized">
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </body>
+</html>
